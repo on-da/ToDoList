@@ -1,3 +1,7 @@
 .done-task{
     color:lightgray;
 }
+
+#taskList button{
+    margin-left: 16px;
+}
