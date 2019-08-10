@@ -14,7 +14,7 @@ function addTask(){
 
 　　//タスクの作成。チェックボックスと削除ボタン追加
     let task=document.createElement("li");
-    task.innerHTML='<label><input type="checkbox">'+inputTask.value+'<button>削除</button></label>';
+    task.innerHTML='<label><input type="checkbox">'+inputTask.value+"<button>削除</button></label>";
 
     //チェックボックスのイベント
     let checkbox=task.getElementsByTagName("input")[0];
